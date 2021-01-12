@@ -1,0 +1,23 @@
+.clock {
+    border: 1px solid black;
+    border-radius: 50%;
+    border-width: thick;
+    height: 30%;
+    width: 17%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.hand {
+    border: 1px solid black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    position: relative;
+    top: 47%;
+    width: 50%;
+}
+
+body {
+    background: url("yellow-wallpaper.jpg") no-repeat fixed center;
+}
