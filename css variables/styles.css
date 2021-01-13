@@ -1,0 +1,37 @@
+:root{
+    --blur: 10px;
+    --spacing: 10px;
+    --base: black;
+}
+
+body {
+    color:chocolate;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+img {
+   width: 40%;
+   height: 50%;
+   position: absolute;
+   top: 20%;
+   left: 25%;
+   filter: blur(var(--blur));
+   padding: var(--spacing);
+   background-color: var(--base);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.controls {
+    position:absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.controls div {
+    padding-bottom: 25px;
+}
